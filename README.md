@@ -1,4 +1,4 @@
-#INDEXADOR ESTRUCTURA DE DATOS
+# INDEXADOR ESTRUCTURA DE DATOS
 =================================
 
 Proyecto de estructura de datos utilizando listas ligadas simples.
