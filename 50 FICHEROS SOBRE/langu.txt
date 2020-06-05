@@ -1,0 +1,8 @@
+Idioma
+Un idioma (del latín: idiōma, y este del griego: ιδίωμα 'peculiaridad, idiosincrasia, propiedad')
+o lengua es un sistema de comunicación verbal (lengua oral y gráfica) o gestual (lengua signada),
+propia de una sociedad humana. Cada idioma se subdivide en dialectos (por definición, cada una 
+de las formas en que se habla una lengua o idioma en una región específica), pero actualmente 
+se duda que exista un criterio válido para hacer tal división (de lenguas o idiomas en 
+dialectos) de una manera objetiva y segura. La determinación de si dos variedades lingüísticas 
+son parte o no del mismo idioma es más una cuestión sociopolítica que lingüística.

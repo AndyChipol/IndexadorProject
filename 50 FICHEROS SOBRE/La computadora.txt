@@ -1,0 +1,19 @@
+                                                                             LA COMPUTADORA
+¿Que es?
+La computadora (del inglés: computer y este del latín: computare, ‘calcular’), también denominado
+computador u ordenador (del francés: ordinateur; y este del latín: ordinator), es una máquina digital
+que ejecuta comandos para convertirlos en datos convenientes y útiles que posteriormente se envían a
+las unidades de salida. Un computador está formado físicamente por numerosos circuitos integrados y
+muchos componentes de apoyo, extensión y accesorios, que en conjunto pueden ejecutar tareas diversas 
+con suma rapidez y bajo el control de un programa (software).
+
+Partes de la computadora.
+Dos partes esenciales la constituyen, el hardware, que es su estructura física (circuitos electrónicos,
+cables, gabinete, teclado, etc.), y el software, que es su parte intangible (programas, datos, información,
+señales digitales para uso interno, etc.).
+Desde el punto de vista funcional es una máquina que posee, al menos, una unidad central de procesamiento, 
+una memoria principal y algún periférico o dispositivo de entrada y otro de salida. Los dispositivos de entrada
+permiten el ingreso de datos, la CPU se encarga de su procesamiento (operaciones aritmético-lógicas) y los
+dispositivos de salida los comunican a otros medios. Es así, que la computadora recibe datos, los procesa y
+emite la información resultante, la que luego puede ser interpretada, almacenada, transmitida a otra máquina
+o dispositivo o sencillamente impresa; todo ello a criterio de un operador o usuario y bajo el control de un programa.

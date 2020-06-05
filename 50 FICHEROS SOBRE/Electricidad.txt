@@ -1,0 +1,20 @@
+La electricidad 
+​es el conjunto de fenómenos físicos relacionados con la presencia y flujo de cargas eléctricas. 
+Se manifiesta en una gran variedad de fenómenos como los rayos, la electricidad estática, la inducción 
+electromagnética o el flujo de corriente eléctrica. Es una forma de energía tan versátil que tiene 
+un sinnúmero de aplicaciones, por ejemplo: transporte, climatización, iluminación y computación.
+
+La electricidad se manifiesta mediante varios fenómenos y propiedades físicas:
+
+Carga eléctrica: una propiedad de algunas partículas subatómicas, que determina su interacción 
+electromagnética. La materia eléctricamente cargada produce y es influida por los campos electromagnéticos.
+Corriente eléctrica: el flujo de electrones que circula por un conductor en un determinado momento. Se mide en amperios.
+Campo eléctrico: un tipo de campo electromagnético producido por una carga eléctrica, incluso cuando no 
+se está moviendo. El campo eléctrico produce una fuerza en toda otra carga, menor cuanto mayor sea la 
+distancia que separa las dos cargas. Además, las cargas en movimiento producen campos magnéticos.
+Potencial eléctrico: es el trabajo que debe realizar una fuerza externa para atraer una carga positiva
+unitaria que desde el punto de referencia hasta el punto considerado, va en contra de la fuerza eléctrica 
+y a velocidad constante.
+Magnetismo: la corriente eléctrica produce campos magnéticos, y los campos magnéticos variables en el tiempo
+generan corriente eléctrica.
+

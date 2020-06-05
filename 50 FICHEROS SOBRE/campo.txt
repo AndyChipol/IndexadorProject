@@ -1,0 +1,13 @@
+CAMPO ELECTROMAGNETICO
+
+Un campo electromagnético es un campo físico, de tipo tensorial, producido por aquellos elementos
+cargados eléctricamente, que afecta a partículas con carga eléctrica.
+Convencionalmente, dado un sistema de referencia, el campo electromagnético se divide en una 
+"parte eléctrica" y en una "parte magnética". Sin embargo, esta distinción no puede ser universal 
+sino dependiente del observador. Así un observador en movimiento relativo respecto al sistema de 
+referencia medirá efectos eléctricos y magnéticos diferentes, que un observador en reposo respecto 
+a dicho sistema. Esto ilustra la relatividad de lo que se denomina "parte eléctrica" y 
+"parte magnética" del campo electromagnético. Como consecuencia de lo anterior tenemos que ni 
+el "vector" campo eléctrico ni el "vector" de inducción magnética se comportan genuinamente
+como magnitudes físicas de tipo vectorial, sino que juntos constituyen un tensor para el que sí existen 
+leyes de transformación físicamente esperables.

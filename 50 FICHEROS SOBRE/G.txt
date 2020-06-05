@@ -1,0 +1,8 @@
+Pastilla guitarra
+Están formadas por un imán permanente rodeado por un bobinado de alambre de cobre. 
+Cuando un cuerpo metálico ferromagnético (en este caso las cuerdas) se mueve dentro 
+del campo magnético de un imán permanente, se provoca una corriente inducida en el 
+bobinado, proporcional a la amplitud del movimiento y de frecuencia igual a la de la 
+oscilación del objeto. Esta corriente es muy débil, por lo que el cableado del interior 
+del instrumento, así como el cableado hasta la amplificación, debe estar muy bien 
+apantallado para evitar ruidos parásitos.

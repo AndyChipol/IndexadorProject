@@ -1,0 +1,5 @@
+Aparato electronico
+Un dispositivo electrónico consiste en una combinación de componentes electrónicos 
+organizados en circuitos, destinados a controlar y aprovechar las señales eléctricas. 
+Los aparatos electrónicos a diferencia de los eléctricos utilizan la electricidad para el 
+almacenamiento, transporte o transformación de información.

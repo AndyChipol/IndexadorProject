@@ -1,0 +1,9 @@
+Formatos del papel
+El formato de papel es el conjunto de los tamaños normalizados de papel, fabricados de manera 
+habitual por la industria.
+En la mayor parte del mundo se basan en los tamaños definidos en la norma ISO 216, que a su vez 
+se basa en la norma DIN 476 (del año 1922). Paralelamente siguen existiendo otros sistemas 
+tradicionales, como los utilizados en los Estados Unidos, Canadá y México, u otros que están c
+ayendo en desuso como el tamaño folio y sus derivados, anteriormente utilizados en Europa.
+También hay más formatos de papel normalizados para otros usos, como los utilizados en los
+periódicos.

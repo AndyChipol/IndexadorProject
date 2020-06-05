@@ -1,0 +1,21 @@
+                                                         Los lentes 
+¿Que son?
+Una lente es un dispositivo óptico transmisor que enfoca o dispersa un haz de luz por medio de la refracción.
+Sin embargo, otros dispositivos como las lentes de Fresnel, que desvían la luz por medio del fenómeno de difracción,
+son de gran utilidad y uso por su bajo costo constructivo y el reducido espacio que ocupan. Los dispositivos que enfocan
+o dispersan de manera similar las ondas y la radiación que no sea la luz visible, también se denominan lentes, como
+lentes de microondas, lentes de electrones, lentes acústicas o lentes explosivas.
+Una lente está constituida por un medio transparente limitado por dos superficies, siendo curva al menos una de ellas.
+​ Una lente simple consiste en una sola pieza de material transparente, mientras que una lente compuesta consta de varias
+ lentes simples (elementos), generalmente dispuestas a lo largo de un eje común. Las lentes están hechas de materiales 
+tales como vidrio o plástico, y se muelen y pulen (o moldean) para conseguir la forma deseada. Una lente puede enfocar 
+la luz para formar una imagen, a diferencia de un prisma, que refracta la luz sin enfocar.
+Las lentes más comunes están basadas en el distinto grado de refracción que experimentan los rayos de luz al incidir en
+ puntos diferentes de su superficie, incluidas las utilizadas para corregir los problemas de visión en gafas, anteojos
+ o lentillas. También se usan lentes, o combinaciones de lentes y espejos, en telescopios y microscopios, con la función 
+de servir como objetivos o como oculares. El primer telescopio astronómico fue construido por Galileo Galilei usando una
+ lente convergente (lente positiva) como objetivo y otra divergente (lente negativa) como ocular. Existen también 
+instrumentos capaces de hacer converger o divergir otros tipos de ondas electromagnéticas y a los que se les denomina
+ también lentes. Por ejemplo, en los microscopios electrónicos las lentes son de carácter magnético.
+En astrofísica es posible observar fenómenos de lentes gravitatorias, cuando la luz procedente de objetos muy lejanos
+ pasa cerca de objetos masivos, y se curva en su trayectoria.

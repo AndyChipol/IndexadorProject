@@ -1,0 +1,13 @@
+Youtube
+YouTube (pronunciación AFI [ˈjuːtjuːb]) es un sitio web de origen estadounidense dedicado a 
+compartir videos. Presenta una variedad de clips de películas, programas de televisión y vídeos 
+musicales, así como contenidos amateur como videoblogs y YouTube Gaming. Las personas que crean
+contenido para esta plataforma generalmente son conocidas como youtubers.
+Fue creado por tres antiguos empleados de PayPal en febrero de 20053​ y, en octubre de 2006 fue 
+adquirido por Google Inc. a cambio de 1 650 millones de dólares y ahora opera como una de sus 
+filiales. Es el sitio web de su tipo más utilizado en internet.
+YouTube usa un reproductor en línea basado en HTML5, que incorporó poco después de que la W3C
+lo presentara y que es soportado por los navegadores web más difundidos. Antiguamente su 
+reproductor funcionaba con Adobe Flash, pero esta herramienta fue desechada en 2016. Los enlaces a vídeos de YouTube pueden ser también insertados en blogs y sitios electrónicos personales usando API o incrustando cierto código HTML.
+El 29 de agosto de 2017, YouTube dio a conocer algunos cambios en el diseño de su versión web
+y presentó un nuevo logotipo, que por primera vez separa el nombre del ícono.4​5​
