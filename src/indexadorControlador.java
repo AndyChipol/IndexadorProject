@@ -1,6 +1,8 @@
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JFrame;
 
 /**
@@ -19,6 +21,7 @@ public class indexadorControlador implements ActionListener {
         vista.eliminarCargaLista.addActionListener(this);
         vista.btnHacerConsulta.addActionListener(this);
         vista.btnEliminarConsulta.addActionListener(this);
+        vista.jRadioButton3.setSelected(true); 
     }
     
     public void run(){
@@ -35,10 +38,26 @@ public class indexadorControlador implements ActionListener {
             modelo.limpiarListaDeCarga(vista.model);
             
         }
-        if(e.getSource() == vista.btnHacerConsulta){
-            modelo.consulta(vista.palabraBuscar,vista.model2,vista.model4);
-            
+        
+        try {
+            if(e.getSource() == vista.btnHacerConsulta){
+                if (vista.jRadioButton3.isSelected()){
+                        modelo.consulta(vista.palabraBuscar,vista.model2,vista.model4);
+                }
+                if (vista.jRadioButton1.isSelected()){
+                        modelo.consultaOR(vista.palabraBuscar,vista.model2,vista.model4);
+                }
+                if(vista.jRadioButton2.isSelected()){
+                        modelo.consultaNot(vista.palabraBuscar,vista.model2,vista.model4);
+                }
+                if(vista.jRadioButton4.isSelected()){
+                        modelo.consultaAnd(vista.palabraBuscar,vista.model2,vista.model4);
+                }
+            }            
+        }catch (UnaPalabraExcepcion | PalabraRepetidaExcepcion ex ) {
+//             Logger.getLogger(indexadorControlador.class.getName()).log(Level.SEVERE, null, ex);
         }
+        
         if(e.getSource() == vista.btnEliminarConsulta){
             
         }

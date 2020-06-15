@@ -21,6 +21,10 @@ public class ListaPalabras {
         }
     }
     
+   NodoFilePalabra getRaiz(){
+       return this.raiz;
+   }
+    
     boolean comparar(NodoFilePalabra palabra){
         NodoFilePalabra p = raiz;
         while(p != null){
@@ -50,6 +54,20 @@ public class ListaPalabras {
         }
         return p;
     }
+    
+    NodoFilePalabra getNodoPalabraNot(String palabra){
+        NodoFilePalabra p = this.raiz;
+        NodoFilePalabra n = null;
+        while(p != null){
+            if(!p.termino.equals(palabra)){
+                
+            }
+            p = p.sig;
+        }
+        return p;
+    }
+    
+    
     
     void mostrar(){
         NodoFilePalabra p = raiz;

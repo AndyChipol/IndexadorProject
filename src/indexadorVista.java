@@ -169,7 +169,6 @@ public class indexadorVista extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\andre\\Desktop\\Escudobuappositivo2.png")); // NOI18N
         jLabel4.setText("jLabel4");
         jLabel4.setPreferredSize(new java.awt.Dimension(50, 54));
 
@@ -478,7 +477,6 @@ public class indexadorVista extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, -1, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\andre\\Desktop\\Componente 18 – 1.png")); // NOI18N
         jLabel5.setFocusable(false);
         jLabel5.setRequestFocusEnabled(false);
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -487,8 +485,7 @@ public class indexadorVista extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnHacerConsultaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHacerConsultaActionPerformed
-   
-
+    //Aqui hacer el metodo de busqueda 
     }//GEN-LAST:event_btnHacerConsultaActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
@@ -534,7 +531,7 @@ public class indexadorVista extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnEliminarConsulta;
     public javax.swing.JButton btnHacerConsulta;
-    private javax.swing.ButtonGroup buttonGroup1;
+    public javax.swing.ButtonGroup buttonGroup1;
     public javax.swing.JList<String> cargaCompletaList;
     public javax.swing.JList<String> cargarArchivosList;
     public javax.swing.JButton cargarLista;

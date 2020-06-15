@@ -18,8 +18,24 @@ public class NodoFilePalabra {
         archivo = archivo.sig;
     }
     
+    boolean estaDocumento(String nombre){
+        NodoNombreDocumento d;
+        d = raiz;
+        while(d != null){
+            if(d.getNombre().equals(nombre)){
+                return true;
+            }
+            d = d.sig;
+        }
+        return false;
+    }
+    
     public void setPlusFreq(){
         this.frecuencia = this.frecuencia + 1;
+    }
+    
+    public void setFreq(int f){
+        this.frecuencia = f;
     }
     
     String getTermino(){
