@@ -1,3 +1,4 @@
+//Proyecto Final
 public class ListaPalabras {
     NodoFilePalabra raiz;
     NodoFilePalabra actual;
@@ -21,9 +22,9 @@ public class ListaPalabras {
         }
     }
     
-   NodoFilePalabra getRaiz(){
+       NodoFilePalabra getRaiz(){
        return this.raiz;
-   }
+    }
     
     boolean comparar(NodoFilePalabra palabra){
         NodoFilePalabra p = raiz;
@@ -66,8 +67,6 @@ public class ListaPalabras {
         }
         return p;
     }
-    
-    
     
     void mostrar(){
         NodoFilePalabra p = raiz;

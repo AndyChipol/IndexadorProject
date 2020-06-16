@@ -8,6 +8,10 @@ public class PalabraRepetidaExcepcion extends Exception{
     public PalabraRepetidaExcepcion(){      
         e.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);  
         e.setVisible(true);
-        //JOptionPane.showMessageDialog(null,"No puedes ingresar mas de una ves una palabra");
+        e.setResizable(false);
     }
 }
+
+
+
+

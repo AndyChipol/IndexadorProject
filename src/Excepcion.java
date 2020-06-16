@@ -1,3 +1,5 @@
+
+//Proyecto Final
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -12,16 +14,6 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author Dell
- */
 public class Excepcion extends javax.swing.JFrame {
     
     /**
@@ -42,10 +34,11 @@ public class Excepcion extends javax.swing.JFrame {
         float[] floats = new float[3];
 
         jLabel1 = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(0, 0));
-        setResizable(false);
         getContentPane().setLayout(null);
+
         jLabel1.setLabelFor(this);
         jLabel1.setText(s);
         getContentPane().add(jLabel1);
@@ -53,7 +46,6 @@ public class Excepcion extends javax.swing.JFrame {
         jLabel1.setFont(new Font("Candara Bold",1,15));
         Color.RGBtoHSB(53, 160, 232, floats);
         jLabel1.setForeground(Color.getHSBColor(floats[0], floats[1], floats[2]));
-        //66
         pack();
     }
     private Excepcion() {
@@ -87,7 +79,6 @@ public class Excepcion extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;

@@ -1,8 +1,6 @@
+//Proyecto Final
 import javax.swing.JFrame;
-/**
- *
- * @author andre
- */
+
 public class Main {
     public static void main(String[] args){
         indexadorVista v = new indexadorVista();

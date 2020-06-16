@@ -6,5 +6,6 @@ public class UnaPalabraExcepcion extends Exception {
     public UnaPalabraExcepcion(){
         e.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); 
         e.setVisible(true);
+        e.setResizable(false);
     }
 }

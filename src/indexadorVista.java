@@ -1,3 +1,4 @@
+//ProyectoFinal
 import com.sun.awt.AWTUtilities;
 import java.awt.MouseInfo;
 import java.awt.Point;
@@ -29,6 +30,7 @@ public class indexadorVista extends javax.swing.JFrame {
     DefaultListModel model2; // Resultado Lista
     DefaultListModel model3; // cargarCompleta Lista
     DefaultTableModel model4; // Estadistica Tabla
+    DefaultListModel model5; //Excepciones Lista
     List<File> files;
     List<File> cargar;
     
@@ -37,6 +39,7 @@ public class indexadorVista extends javax.swing.JFrame {
         this.model2 = new DefaultListModel();
         this.model3 = new DefaultListModel();
         this.model4 = new DefaultTableModel();
+        this.model5 = new DefaultListModel();
         
         try{
             UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
@@ -56,6 +59,7 @@ public class indexadorVista extends javax.swing.JFrame {
         resultadoLista.setModel(model2);
         cargaCompletaList.setModel(model3);
         model4 = (DefaultTableModel)estadistica.getModel();
+        exList.setModel(model5);
     }
     
     public void setLista(List<File> lista){
@@ -137,6 +141,8 @@ public class indexadorVista extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel2 = new javax.swing.JPanel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        exList = new javax.swing.JList<>();
         jScrollPane3 = new javax.swing.JScrollPane();
         cargaCompletaList = new javax.swing.JList<>();
         eliminarCargaLista = new javax.swing.JButton();
@@ -147,6 +153,8 @@ public class indexadorVista extends javax.swing.JFrame {
         cargarArchivosList = new javax.swing.JList<>();
         contenedor = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        cargarArchivosList1 = new javax.swing.JList<>();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         resultadoLista = new javax.swing.JList<>();
@@ -236,6 +244,19 @@ public class indexadorVista extends javax.swing.JFrame {
         jPanel2.setPreferredSize(new java.awt.Dimension(1080, 610));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jScrollPane7.setBorder(null);
+
+        exList.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        exList.setForeground(new java.awt.Color(204, 51, 0));
+        exList.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { " " };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        jScrollPane7.setViewportView(exList);
+
+        jPanel2.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 280, 610, 80));
+
         jScrollPane3.setBorder(null);
 
         cargaCompletaList.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -318,6 +339,20 @@ public class indexadorVista extends javax.swing.JFrame {
         jLabel9.setFocusable(false);
         jLabel9.setRequestFocusEnabled(false);
         jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1060, -1));
+
+        jScrollPane6.setBorder(null);
+        jScrollPane6.setAlignmentX(0.2F);
+        jScrollPane6.setAlignmentY(0.2F);
+        jScrollPane6.setFocusTraversalPolicyProvider(true);
+        jScrollPane6.setFont(new java.awt.Font("Roboto", 0, 11)); // NOI18N
+
+        cargarArchivosList1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        cargarArchivosList1.setForeground(new java.awt.Color(43, 45, 66));
+        cargarArchivosList1.setSelectionBackground(new java.awt.Color(53, 160, 232));
+        cargarArchivosList1.setSelectionForeground(new java.awt.Color(254, 254, 254));
+        jScrollPane6.setViewportView(cargarArchivosList1);
+
+        jPanel2.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 70, 540, 120));
 
         jTabbedPane1.addTab("CARGAR ARCHIVOS", jPanel2);
 
@@ -531,13 +566,15 @@ public class indexadorVista extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnEliminarConsulta;
     public javax.swing.JButton btnHacerConsulta;
-    public javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.ButtonGroup buttonGroup1;
     public javax.swing.JList<String> cargaCompletaList;
     public javax.swing.JList<String> cargarArchivosList;
+    public javax.swing.JList<String> cargarArchivosList1;
     public javax.swing.JButton cargarLista;
     public javax.swing.JLabel contenedor;
     public javax.swing.JButton eliminarCargaLista;
     public javax.swing.JTable estadistica;
+    public javax.swing.JList<String> exList;
     private javax.swing.JButton jButton1;
     public javax.swing.JButton jButton3;
     private javax.swing.JButton jButton6;
@@ -563,6 +600,8 @@ public class indexadorVista extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JTabbedPane jTabbedPane1;
     public javax.swing.JButton minimizar;
     public javax.swing.JTextArea mostrarArchivo;
