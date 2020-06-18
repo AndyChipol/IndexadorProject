@@ -414,7 +414,8 @@ public class indexadorModelo {
     }
 
     public void cargarArchivos(DefaultListModel modeloCargarArchivos,DefaultListModel modeloCargaCompleta,DefaultListModel modeloExc) throws ArchivoNoInsertadoExcepcion, ConsultaNoEncontraExcepcion{
-        
+        indexado = new ListaPalabras();
+        modeloExc.removeAllElements();
         modeloCargaCompleta.removeAllElements();
         FileReader lectura = null;
         BufferedReader lectBuff = null;
@@ -426,25 +427,24 @@ public class indexadorModelo {
         StringBuffer pal = new StringBuffer();
         String[] subcadena, nombreDoc;
         String separador = Pattern.quote("\\");
+        System.out.print("Carga : " + modeloCargarArchivos.size());
+        
+        
         if(modeloCargarArchivos.isEmpty()==true){
             throw new ArchivoNoInsertadoExcepcion();
         }
         else{
-            for(int k=0 ; k<modeloCargarArchivos.size(); k++){
-                if(files.contains((File)modeloCargarArchivos.getElementAt(k))){
-                    bandera2=true;
-                    break;
-                }
-            }
-            if(bandera2 == false){
         /*
             VERIFICAR LA PALABRA
                 VERIFICAR SI ESTA EN EL MISMO ARCHIVO
         
         */
+        
                 for(int i=0; i < modeloCargarArchivos.size(); i++){
+                    
                     contador = 1;
                     if(modeloCargarArchivos.getElementAt(i).toString().toLowerCase().endsWith(".txt") ){
+                        System.out.println(modeloCargarArchivos.getElementAt(i).toString().toLowerCase());
                         files.add((File)modeloCargarArchivos.getElementAt(i));
                         try {
                             lectura = new FileReader((File)modeloCargarArchivos.getElementAt(i));
@@ -495,11 +495,7 @@ public class indexadorModelo {
                         
                     }
                 }
-            //indexado.mostrar();
-            }
-            else{
-                throw new ConsultaNoEncontraExcepcion();
-            }
+            
         }
     }
     
